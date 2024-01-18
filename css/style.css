@@ -450,4 +450,48 @@ line-height: 24px; /* 150% */
 }
 
 
+/* Catalog */
 
+/* catalog_btn_section */
+
+.catalog_btn_section{
+    margin-top: 96px;
+    border-top: 2px solid #05BCCA;
+    background-color:#1A1A1A;
+    padding-block: 36px;
+    display: flex;
+    justify-content: center;
+}
+.btn_list{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn_list button{
+    border: 1px solid #05BCCA;
+    background: transparent;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    padding: 18px 24px;
+}
+
+.active{
+background-color: #A1C3C9;
+}
+
+.btn_active{
+color: #2C4246;
+}
+
+.guitar_shop_container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    padding-block: 96px;
+    background-color: #012426;
+}

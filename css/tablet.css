@@ -115,6 +115,19 @@
       .mail_form{
         width: 85%;
       }
+
+      /* catalog_btn_section */
+      
+      .catalog_btn_section{
+        padding-block: 16px;
+      }
+
+      .btn_list button{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px;
+      }
+
     }
     
     
