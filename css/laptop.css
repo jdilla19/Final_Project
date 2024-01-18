@@ -14,12 +14,18 @@
 
 
 @media (max-width: 1025px){
-
+/* header */
 .fa-bars{
     display: block;
 }
 
 .header_left_side{
+    display: none;
+}
+
+/* article guitar_shop_container */
+
+.hide1024px{
     display: none;
 }
 

@@ -22,6 +22,21 @@
     
     }
     
+
+    @media (max-width:745px){
+        /* guitar_shop_container */
+        .guitar_shop_container{
+            padding-block: 45px;
+        }
+
+        .filter_container{
+            padding-inline: 32px;
+        }
+    
+        .hide744px{
+            display: none;
+        }
+    }
     
     
     @media (max-width: 725px) {
