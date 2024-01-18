@@ -1,0 +1,121 @@
+@media (max-width:861px){
+    /* index_figure */
+        .index_figure{
+            padding-top: 48px;
+            padding-bottom: 48px;   
+        }
+    
+        .box_container{
+            width: 680px;
+        }
+    
+        .box{
+            width: 330px;
+        }
+    
+        /* index_footer */
+        .footer_container{
+            column-gap: 149px;
+        }
+    
+        
+    
+    }
+    
+    
+    
+    @media (max-width: 725px) {
+        /* header */
+    
+        header{
+            padding-inline: 32px;
+        }
+    
+        /* index_footer */
+        .index_container{
+            row-gap: 48px;
+        }
+    
+        .footer_container{
+            flex-direction: column;
+            row-gap: 40px;
+        }
+    
+        .main_footer_list{
+            align-items: center;
+        }
+    
+        .footer_list{
+            align-items:center;
+        }
+        
+    
+    }
+    
+    
+    
+    
+    @media (max-width:701px)  {
+    /* index_figure */
+        .box_container{
+            width: 560px;
+            height: 400px;
+        }
+    
+        .box {
+            width: 270px;
+            height: 190px;
+            
+        }
+    } 
+    
+    
+    @media (max-width :631px) {
+    /* index_figure */
+        .index_figure{
+            padding-top: 32px;
+            padding-bottom: 32px;   
+        }
+    
+         .box_container{
+            width: 360px;
+            height: 340px;
+        } 
+    
+         .box{
+            width: 170px;
+            height: 150px;
+    
+        } 
+    
+        .box_text{
+            font-size: 16px;
+            line-height: 24px;
+            padding: 8px; 
+          
+        }
+    
+    
+        /* mail_section */
+        .mail_section{
+            row-gap: 24px;
+        }
+    
+    
+        .mail_title{
+            font-size: 24px;
+            line-height: 32px;
+        }
+    
+        
+    }
+    
+    
+    @media (max-width :558px){
+      .mail_form{
+        width: 85%;
+      }
+    }
+    
+    
+    

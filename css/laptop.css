@@ -1,0 +1,28 @@
+
+@media(max-width:1277px){
+    /* index_article_scroll */
+    .article_cards_container{
+        overflow-x: scroll;
+        padding-inline: 0 32px;
+    }
+
+    .guitar_card{
+        flex: 1 0 289px;
+    }
+}
+
+
+
+@media (max-width: 1025px){
+
+.fa-bars{
+    display: block;
+}
+
+.header_left_side{
+    display: none;
+}
+
+
+}
+

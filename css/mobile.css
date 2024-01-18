@@ -1,0 +1,105 @@
+@media (max-width: 481px){
+
+    /* index_header */
+
+    header{
+        padding: 28px 8px;
+    }
+
+    
+    .logo_svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header_right_side{
+        column-gap: 16px;
+    }
+
+    .fa-magnifying-glass{
+        font-size: 16px;
+    }
+
+    .right_side_second_button{
+        width: 32px;
+        height: 32px;
+    }
+
+    .fa-user{
+        font-size: 16px;
+    }
+
+    .right_side_third_button{
+        width: 32px;
+        height: 32px;
+    }
+    
+    .fa-cart-shopping {
+        font-size: 16px;
+    }
+
+
+    .home_h3{
+        font-size: 24px;
+    }
+
+
+    /* index_article */
+    .popular_guitar_article{
+        padding-block: 48px;
+        padding-inline: 8px 0px;
+    }
+
+    .article_title{
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+
+    .guitar_card{
+        padding-inline: 0 8px;
+    }
+
+}
+
+
+
+
+
+@media (max-width :376px) {
+    /* index_figure */
+.box_container{
+
+    width:320px;
+    height: 280px;
+}
+
+.box{
+    width: 150px;
+    height: 130px;
+}
+
+
+/* index_mail_section */
+
+.mail_section{
+    height: 168px;
+}
+
+.section_title {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.mail_input_button{
+    padding: 15px 7px 14px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+}
+
+
+
+
