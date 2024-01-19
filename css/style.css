@@ -60,12 +60,26 @@ z-index: 2;
     background-color: transparent;
     border: none;
     padding: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+ .right_side_first_button:hover{
+    box-shadow: 0 0 10px rgba(11, 174, 207, 0.5);
+} 
+.right_side_second_button:hover{
+    box-shadow: 3px 3px 20px rgba(11, 189, 213, 5);    
+}
+
+.right_side_third_button:hover{
+    box-shadow: 3px 3px 20px rgba(11, 189, 213, 5);    
 }
 
 .fa-magnifying-glass{
     font-size: 24px;
     color: #05BCCA;
 }
+ 
+
 
 .right_side_second_button {
     background-color:  #05BCCA; ;
@@ -76,13 +90,15 @@ z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .fa-user{
     font-size: 24px;
     color: #2C4246;
-    
 }
+
 
 
 .right_side_third_button{
@@ -95,6 +111,9 @@ z-index: 2;
     border-radius: 8px;
     border: 2px solid #05BCCA;
     background-color: transparent;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    
 }
 
 
@@ -220,6 +239,19 @@ transition:  color 0.4s linear;
     background-size: cover;
 }
 
+.box{
+    transition: transform 1s ease-in-out;
+}
+
+.box1,.box2,.box3,.box4,{
+    transform: translate(1, 1);
+}
+
+.box1:hover { transform: translate(-50px, 0); }
+.box2:hover { transform: translate(50px, 0); }
+.box3:hover { transform: translate(-50px, 0); }
+.box4:hover { transform: translate(50px, 0); }
+
 /* index_article */
 
 .popular_guitar_article {
@@ -267,7 +299,14 @@ transition:  color 0.4s linear;
     flex-direction: column;
     row-gap: 16px;
     border: 1px solid #05BCCA;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
 
+.guitar_card:hover{
+transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -456,6 +495,14 @@ line-height: 24px; /* 150% */
     column-gap: 4px;
 }
 
+.fa-brands{
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.fa-brands:hover{ 
+    box-shadow: 0px 0px 30px rgba(9, 1, 27, 20);
+}
+
 .footer_bottom p{
 color: #D9D9D9;
 font-family: 'Inter', sans-serif;
@@ -572,6 +619,14 @@ color: #D9D9D9;
     display: flex;
     flex-direction: column;
     row-gap: 16px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.guitar_minicards:hover{
+    transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .guitar_card_text{
