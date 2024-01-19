@@ -239,18 +239,23 @@ transition:  color 0.4s linear;
     background-size: cover;
 }
 
-.box{
-    transition: transform 1s ease-in-out;
+.box1,.box4{
+    animation-name: my-animation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+
 }
 
-.box1,.box2,.box3,.box4,{
-    transform: translate(1, 1);
-}
-
-.box1:hover { transform: translate(-50px, 0); }
-.box2:hover { transform: translate(50px, 0); }
-.box3:hover { transform: translate(-50px, 0); }
-.box4:hover { transform: translate(50px, 0); }
+@keyframes my-animation {
+    from {
+      width: 404px;
+    }
+    to {
+      width: 240px;
+    }
+  }
 
 /* index_article */
 
