@@ -623,3 +623,136 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px;
 }
+
+/* contact_container */
+
+.contact_container{
+    margin-top: 96px;
+    background-image: url(../image/contact_cover.png);
+    height: 720px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 96px 94px 115px 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.contact_content{
+    width: 616px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.contact_title{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 40px;
+    background: #2C4246;
+}
+
+.contact_info{
+    display: flex;
+    flex-direction: column; 
+    row-gap: 24px;
+}
+
+.contact_info a{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.contact_info i {
+    font-size: 24px;
+    color: #D9D9D9;
+}
+
+.contact_info p {
+    color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.form_container{
+    display: flex;
+    gap: 40px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.contact_form_inputs{
+    display: flex;
+    column-gap: 8px;
+}
+
+.contact_form_inputs input{
+    background-color: #2C4246;
+    color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    border: none;
+    padding: 6px 8px;
+    width: 50%;
+}
+
+textarea{
+    height: 103px;
+    resize: none;
+    margin-bottom: 8px;
+    background-color: #2C4246;
+    color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    border: none;
+    padding: 6px 8px;
+}
+
+.text_area_btn{
+background-color: #C46A2B;
+color: #D9D9D9;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+padding-block: 8px;
+border: none
+}
+
+.map_container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: flex-end;
+}
+
+iframe{
+    width: 100%;
+}
+
+.iframe_social li a i{
+    color: #05BCCA;
+}

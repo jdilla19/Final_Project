@@ -1,27 +1,4 @@
-@media (max-width:861px){
-    /* index_figure */
-        .index_figure{
-            padding-top: 48px;
-            padding-bottom: 48px;   
-        }
-    
-        .box_container{
-            width: 680px;
-        }
-    
-        .box{
-            width: 330px;
-        }
-    
-        /* index_footer */
-        .footer_container{
-            column-gap: 149px;
-        }
-    
-        
-    
-    }
-    
+
 
     @media (max-width:745px){
         /* guitar_shop_container */
@@ -35,6 +12,11 @@
     
         .hide744px{
             display: none;
+        }
+
+        /* contact */
+        .contact_container{
+            padding: 48px 64px;
         }
     }
     
@@ -121,8 +103,55 @@
             font-size: 24px;
             line-height: 32px;
         }
+
+        /* contact */
+        .contact_container {
+            padding: 32px 40px;
     
+        }
+        .contact_content{
+            row-gap: 33px;
+        }
+
+        .contact_title{
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        }
+
+        .contact {
+            padding: 16px;
+            align-items: center;
+            justify-content: center;
+            column-gap: 24px;
+        }
+
+        .contact_info p{
+            display: none;
+        }
+
+        .map_minilogo_img{
+        width: 24px;
+        height: 24px;
+        }
         
+        .contact_info{
+        flex-direction: row;
+        column-gap: 24px;
+        }
+    
+        .form_container{
+            flex-direction: column;
+        }
+
+        .contact_form_inputs{
+            column-gap: 13px;
+        }
+        
+        .map_container{
+        row-gap: 32px;
+        align-items: center;
+        }
     }
     
     

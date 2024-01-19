@@ -32,3 +32,38 @@
 
 }
 
+
+@media (max-width:861px){
+    /* index_figure */
+        .index_figure{
+            padding-top: 48px;
+            padding-bottom: 48px;   
+        }
+    
+        .box_container{
+            width: 680px;
+        }
+    
+        .box{
+            width: 330px;
+        }
+    
+        /* index_footer */
+        .footer_container{
+            column-gap: 149px;
+        }
+    
+        
+    
+    }
+
+
+
+@media (max-width: 815px){
+    /* contact */
+.contact_container{
+    padding-inline: 0;
+    justify-content: center;
+}
+}
+
